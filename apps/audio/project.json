@@ -24,7 +24,9 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "audio:build",
-        "dev": true
+        "dev": true,
+        "port": 4200,
+        "hostname": "localhost" // use 0.0.0.0 fir cloud9 IDE to open from EC2 IP.
       },
       "configurations": {
         "development": {
